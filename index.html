@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Titillium+Web&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mode.css">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./media.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Jw_Leong</title>
+</head>
+<body>
+    <header id="fullpage-image">
+        <nav>
+            <ul class="nav-left">
+                <a id="logo">Jw</a>
+            </ul>
+            <ul class="nav-right">
+                <div class="md-switch">
+                    <input type="checkbox" id="dark-mode" class="md-toggle md-toggle-round">
+                    <label for="dark-mode">
+                        <span>&#9728;</span>
+                    </label>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        
+        <section>
+            <div id="intro" class="row">
+                <div id="photo" class="row col-md-6 align-items-center justify-content-center">
+                    <img class="col-sm-6 col-md-12 " src="./jwprofile.jpg" alt="jinq-wen-photo"/>
+                </div>
+                <div class="col-md-6">
+                    <p>WELCOME</p>
+                    <p>I AM <span id="name"> Jinq Wen Leong </span></p>
+                    <p>AND</p>
+                    <p>THIS IS MY PORTFOLIO<span id="dot-effect"></span></p>
+                </div>
+            </div>
+            <div id="toAbout">
+                <div class="down"><i style="font-size:50px" class="fa">&#xf107;</i></div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <div class="row">
+                <div class="col-md-6 about-card">
+                    <p>Hi, I'm a full stack / front end web developer fresh into the wonderful world of coding. I enjoy turning complex problems into simple, and intuitive solutions. I specialize in HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, and Python.</p>
+                    <p>After having worked in the accounting field for four years, I joined the Full Stack Web Development Bootcamp at NEXT Academy, Malaysia in January 2019 to make a massive career change. Currently, I worked as a junior web developer and looking for interesting projects that will educate, improve and challenge me further.</p>
+                    <p>Please feel free to contact me via any of the channels at the bottom of the page. You can visit my 
+                        <a href="https://github.com/leongjinqwen" style="display: inline;">
+                            <i class="fab fa-github"></i> github profile
+                        </a>
+                        to check my projects.
+                    </p>
+                    <button id="cv">Download CV <i class="fa fa-download"></i></button>
+                </div>
+                <div id="lang" class="col-md-6">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-bootstrap"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-python"></i>
+                </div>
+            </div>
+            <div id="toProjects">
+                <div class="down"><i style="font-size:50px" class="fa">&#xf107;</i></div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="listing" class="row mx-2"></div>
+            <div id="toContact">
+                <div class="down"><i style="font-size:50px" class="fa">&#xf107;</i></div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact me</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrYiDSZtTktaeOI3?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="841" style="background: transparent;"></iframe>
+                </div>
+                <div id="social" class="col-md-4">
+                    <a class="" target="_blank" href="mailto: leongjinqwen@hotmail.com">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <a class="" target="_blank" href="https://github.com/leongjinqwen">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="" target="_blank" href="https://www.facebook.com/jw.leong">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="" target="_blank" href="https://www.instagram.com/jw_leong/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="" target="_blank" href="https://www.linkedin.com/in/jinq-wen-leong-610b65188/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>© 2019  JINQ WEN LEONG</footer>
+    <!-- custom js code -->
+    <script src="index.js"></script>
+</body>
+</html>
