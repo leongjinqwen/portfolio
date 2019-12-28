@@ -68,3 +68,10 @@ $("#toProjects").click(function(){
 $("#toContact").click(function(){
     document.getElementById("contact").scrollIntoView({ behavior: 'smooth', block: 'start' })
 })
+
+$("#cv").click(function(){
+    window.open(
+        "http://bit.ly/2SwcLoO",
+        '_blank'
+      );
+})
